@@ -1,6 +1,6 @@
 # Dockerfile
 
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:17-jdk
 
 # Switch to root to install Maven and Docker
 USER root
